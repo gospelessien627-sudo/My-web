@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.opener{
+    width: 100%;
+    height: 12vh;
+    background-color: white;
+}
+
+.cari{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+    font-size: 19px;
+    float: left;
+    margin-left: 20px;
+
+}
+.car{
+    position: relative;
+}
+.kok{
+    position: absolute;
+    padding-left: 22px;
+    padding-top: 3px;
+}
+.link{
+    display: flex;
+    float: left;
+    margin-left: 400px;
+    margin-top: 17px;
+}
+.link ul{
+    display: flex;
+    gap: 13px;
+}
+.link ul li{
+    list-style-type: none;
+    color: black;
+    font-size: 20px;
+}
+
+.link ul li:hover{
+    color: red;
+}
+
+.button{
+    float: left;
+    margin-left: 220px;
+    margin-top: 16px;
+}
+.button :nth-child(2){
+    margin-left: 15px;
+    width: 85px;
+    height: 30px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+.button :nth-child(1){
+    width: 88px;
+    background-color: red;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+.button :nth-child(1):hover{
+    background-color: white;
+    border: none;
+}
+.button :nth-child(2):hover{
+    background-color: white;
+    border: none;
+}
+
+
+.div{
+    background-color: white;
+}
+ .liv{
+    display: none;
+ }
+ .weak{
+    display: none;
+ }
+
+@media (width:576px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .liv{
+        display: block;
+        /* margin-right: 20px; */
+        margin-left: 515px;
+        /* float: right; */
+        margin-top: 15px;
+        position: fixed;
+    
+    }
+    .link{
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+    .opener{
+        position: fixed;
+        width: 100%;
+         height: 12vh;
+        background-color: white;
+    }
+    .weak{
+        display: flex;
+        float: right;
+        margin-right: 0px;
+        margin-top: 23px;
+        /* justify-content: flex-end; */
+    }
+    .weak ul{
+            background-color: white;
+        width: 590px;
+        height: 130px;
+
+    }
+    .weak ul li{
+        list-style-type: none;
+        color: black;
+        padding-top: 15px;
+        padding-left: 280px;
+    
+    }
+    .weak ul li:hover{
+        color: red;
+    }
+}

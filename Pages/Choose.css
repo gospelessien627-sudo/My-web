@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.auto{
+    width: 100%;
+    height: 220vh;
+    background-color: bisque;
+}
+.cont{
+    /* display: flex; */
+    padding-top: 350px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* padding-left: 200px; */
+    /* margin-bottom: 100px; */
+    /* float: right; */
+}
+h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.ok{
+    padding-top: 10px;
+    color: black;
+    /* font-weight: bold; */
+}
+.lll{
+    background-color: white;
+    display: flex;
+    width: 270px;
+    height: 260px;
+    border:  1px solid white;
+    border-radius: 10px;
+}
+.fff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* margin-right: 120px; */
+}
+.sh{
+ background-color: blue;
+ width: 80px;
+ height: 60px;
+ border: 1px solid blue;
+ margin-left: 90px;
+ margin-top: 30px;
+ float: left;
+ border-radius: 30px;
+
+}
+
+.she{
+    /* display: block; */
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 50px;  
+    height: 40px;   
+    color: white;
+}
+.not{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.ink{
+    float: right;
+    margin-top: 8px;
+    text-align: center;
+}
+.in{
+    color: rgba(0, 0, 0, 0.747);
+    padding-right: 15px;
+    float: right;
+}
+.formula{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+.formu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+@media (width : 576px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+ .cont{
+    /* display: flex; */
+    padding-top: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* padding-left: 200px; */
+    /* margin-bottom: 100px; */
+    /* float: right; */
+}
+.auto{
+    width: 100%;
+    height: 640vh;
+    background-color: bisque;
+}
+.formula{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+.formu{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}   
+}
