@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.foot{
+    width: 100%;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+.phone{
+    color: blue;
+}
+.map{
+    color: rgba(0, 0, 255, 0.865);
+
+}
+.mail{
+    color: rgba(0, 0, 255, 0.865);
+}
+.car{
+    color: rgba(0, 0, 255, 0.865);
+}
+.foo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 100px;
+}
+.ttt{
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.oop{
+    padding-top: 20px;
+    color: white;
+}
+.icon{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    color: white;
+
+}
+.icon :nth-child(1):hover{
+    color: red;
+}
+
+
+.linkss ul {
+    padding-top: 20px;
+}
+.linkss ul li{
+    list-style-type: none;
+    color: white;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.linkss ul li:hover{
+    color: red;
+}
+.wins ul{
+     padding-top: 20px;
+}
+.wins ul li{
+     list-style-type: none;
+    color: white;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.wins ul li:hover{
+    color: red;
+}
+
+.luh ul{
+     padding-top: 8px;
+}
+.luh ul li{
+     list-style-type: none;
+    color: white;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.luh ul li:hover{
+    color: red;
+}
+.line{
+    background-color: white;
+    width: 1000px;
+    height: 2px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.lent{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    color: white;
+}
+.lent :nth-child(1):hover{
+    color: red;
+}
+
+@media (width: 576px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+ .foot{
+    width: 100%;
+    height: 240vh;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+.foo{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 100px;
+    margin-left: 20px;
+}  
+.line{
+    margin-top: 60px;
+    width: 500px;
+    margin-left: 50px;
+} 
+.coc{
+    padding-top: 45px;
+    font-size: 20px;
+}
+.wins{
+    padding-top: 45px;
+    font-size: 20px;
+}
+.bloq{
+    padding-top: 45px;
+    font-size: 20px;
+}
+.nol{
+    font-size: 20px;
+    padding-right: 55px;
+}
+.ttt{
+    padding-left: 70px;
+}
+.icon{
+    margin-left: 70px;
+}
+.linkss{
+    padding-left: 80px;
+}
+.wik{
+    padding-left: 70px;
+}
+.luh{
+    padding-left: 70px;
+}
+.oop{
+    padding-left: 60px;
+}
+.lent{
+    display: block;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+}
